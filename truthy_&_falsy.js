@@ -1,4 +1,4 @@
-if (true){
+if (0){
     console.log("it is true vale");
 }
 else{
