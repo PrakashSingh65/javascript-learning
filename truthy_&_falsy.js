@@ -1,4 +1,4 @@
-if (0){
+if ("prakash"){
     console.log("it is true vale");
 }
 else{
