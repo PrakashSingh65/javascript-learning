@@ -6,12 +6,11 @@
 // }
 
 
+let num =0;
 
-let string ="prakash ";
-
-if(string){
-    console.log("string is not empty");
+if(num){
+    console.log("nnum is not equal to 0");
 }
 else{
-    console.log("string is empty");
+    console.log("nnum is eqal to 0");
 }
