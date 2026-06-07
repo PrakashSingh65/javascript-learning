@@ -1,18 +1,18 @@
-let color ="black";
+let color ="red";
 
 
 switch(color){
     case"red":
     console.log("stop");
-    break;
+     break;
 
     case"yelloe":
     console.log("get ready");
-    break;
+     break;
 
     case"green":
-    comnsole.log("go");
-    brewak;
+    console.log("go");
+     break;
 
     default:
         console.log("invalid color");
