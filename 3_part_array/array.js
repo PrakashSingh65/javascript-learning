@@ -3,3 +3,4 @@
 // let students ="nakul";
 
 let students =['sandeep','prakash','nakul']
+console.log(students);
