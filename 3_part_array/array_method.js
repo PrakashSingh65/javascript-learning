@@ -8,3 +8,6 @@ console.log(c)
 letr=num.pop()
 // pop returns the popped elements
 console.log(num)
+// push method
+let r= num.push(56)
+console.log(num,r)
