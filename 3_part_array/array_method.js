@@ -5,5 +5,6 @@ let c=num.join("_")
 // join method
 console.log(c)
 // pop method
-num.pop()
+letr=num.pop()
+// pop returns the popped elements
 console.log(num)
