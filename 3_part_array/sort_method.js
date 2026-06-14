@@ -8,4 +8,4 @@
 
 let num = [551,22,33,3,14,5,7,8,225]
 let deletedValues =num.splice(2,3,1042,1033,1055)
-console.log(deletedValues)
+console.log(typeof deletedValues)
