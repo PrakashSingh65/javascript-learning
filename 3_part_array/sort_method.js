@@ -13,5 +13,6 @@ let num = [551,22,33,3,14,5,7,8,225]
 // console.log(num)
 // console.log(typeof deletedValues)
 
-let newNum = num.slice(3)
+// let newNum = num.slice(3)
+let newNum = num.slice(3,5)
 console.log(newNum)
