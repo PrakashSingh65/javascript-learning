@@ -4,7 +4,14 @@ let num =[3,5,1,2,4]
     // console.log(num[i])
 // }
 
+// ForEach Loop
+// num.forEach((element)=>{
+    // console.log(element*element)
+// })
 
-num.forEach((element)=>{
-    console.log(element*element)
-})
+
+
+// Array. From
+let name ="prakash"
+let arr = Array.from(name)
+console.log(arr)
