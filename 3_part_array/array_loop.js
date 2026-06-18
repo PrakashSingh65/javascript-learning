@@ -26,5 +26,5 @@ for(let item of num){
 
 // for...in
 for(let i of num){
-    console.log(i)
+    console.log(num[i])
 }
