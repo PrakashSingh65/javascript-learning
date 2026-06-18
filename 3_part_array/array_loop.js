@@ -18,6 +18,13 @@ let num =[3,5,1,2,4]
 
 
 // for...of
+for(let item of num){
+    console.log(item)
+}
+
+
+
+// for...in
 for(let i of num){
     console.log(i)
 }
