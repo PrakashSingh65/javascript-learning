@@ -12,6 +12,12 @@ let num =[3,5,1,2,4]
 
 
 // Array. From
-let name ="prakash"
-let arr = Array.from(name)
-console.log(arr)
+// let name ="prakash"
+// let arr = Array.from(name)
+// console.log(arr)
+
+
+// for...of
+for(let i of num){
+    console.log(i)
+}
