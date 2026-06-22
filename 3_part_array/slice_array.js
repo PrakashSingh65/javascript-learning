@@ -4,8 +4,10 @@
 
 // splice Array
 
-let cars = ['audi','bmw','xuv','maruti']
+// let cars = ['audi','bmw','xuv','maruti']
 // console.log(cars.splice(3))
-console.log(cars.splice(0,1))
+// console.log(cars.splice(0,1))
 
-
+// sort array
+let cars = ['audi','bmw','xuv','maruti']
+console.log(cars.sort())
