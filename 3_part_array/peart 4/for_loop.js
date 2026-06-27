@@ -16,3 +16,7 @@ console.log("8")
 for (let i=5; i>=1; i--){
     console.log(i);
 }
+
+
+let i = 5;
+console.log(i);
