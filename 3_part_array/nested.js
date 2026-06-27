@@ -1,3 +1,3 @@
 let nums=[[1,2],[3,4],[5,6]]
 
-console.log(nums[0])
+console.log(nums[2][3])
