@@ -1,5 +1,9 @@
 let fruits = ["mango","apple","banana","orange"];
 
-for(i of fruits){
-    console.log(i)
+for(fruit of fruits){
+    console.log(fruit);
+}
+
+for(char of "prakash"){
+    console.log(char);
 }
