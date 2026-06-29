@@ -1,10 +1,11 @@
 // let fruits =[ "mango","apple","orange","banana","litchi"];
+// fruits.push("pineapple");
 
 // for(let i=0; i<fruits.length; i++){
 //     console.log(i, fruits[i]);
 // }
 
-
+// odd
 
 // let fruits =[ "mango","apple","orange","banana","litchi"];
 
@@ -13,6 +14,7 @@
 // }
 
 
+// even
 
 let fruits =[ "mango","apple","orange","banana","litchi"];
 
