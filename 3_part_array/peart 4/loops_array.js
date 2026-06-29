@@ -16,8 +16,18 @@
 
 // even
 
-let fruits =[ "mango","apple","orange","banana","litchi"];
+// let fruits =[ "mango","apple","orange","banana","litchi"];
 
-for(let i=0; i<fruits.length; i++){
+// for(let i=0; i<fruits.length; i++){
+//     console.log(i, fruits[i]);
+// }
+
+
+// revers
+let fruits =[ "mango","apple","orange","banana","litchi"];
+fruits.push("pineapple");
+
+
+for(let i=fruits.length-1; i>=0; i--){
     console.log(i, fruits[i]);
 }
