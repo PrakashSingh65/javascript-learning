@@ -22,6 +22,7 @@ let student = [ ["prakash",95],["pratap",99],["sandeep",98],["nakul",80.6]];
 
 
 for(let i=0; i<student.length; i++){
+    console.log('info of student #${i}');
     for(let j=0; j<student[i].length; j++){
         console.log(student[i][j]);
     }
