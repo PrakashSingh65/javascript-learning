@@ -1,7 +1,7 @@
 let students = {
     name:"prakash",
     age:27,
-    marks: 80.9
+    marks: 80.9,
 };
 
 
@@ -9,5 +9,5 @@ let students = {
 let items = {
     item:"pen",
     discount: 2,
-    color:"blue","black"
+    color:["blue","black"]
 };
