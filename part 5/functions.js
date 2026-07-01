@@ -34,7 +34,7 @@
 
 
 function isAdult(){
-    let age =18;
+    let age =13;
     if(age>=18){
         console.log("you are adult");
     }else{
