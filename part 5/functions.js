@@ -13,8 +13,18 @@
 
 
 
-function printName() {
-    console.log("my name is prakash singh");
+// function printName() {
+//     console.log("my name is prakash singh");
+// }
+
+// printName();
+
+
+
+function print1to100() {
+    for(let i=1; i<=100; i++) {
+        console.log(i);
+    }
 }
 
-printName();
+print1to100();
