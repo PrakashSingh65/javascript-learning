@@ -6,3 +6,5 @@ function rollDice(){
 }
 
 rollDice();
+rollDice();
+rollDice();
