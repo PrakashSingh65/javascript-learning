@@ -1,5 +1,12 @@
-function printName(name){
-    console.log(name);
+// function printName(name){
+//     console.log(name);
+// }
+
+// printName("prakash");
+
+
+function printInfo(name,age){
+    console.log(`${name}'s age is ${age}.`);
 }
 
-printName("prakash");
+printInfo("prakash",27);
