@@ -7,4 +7,4 @@ function printTable(n){
     }
 }
 
-printTable(5);
+printTable(19);
