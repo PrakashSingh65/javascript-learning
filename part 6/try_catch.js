@@ -1,9 +1,10 @@
 console.logf("hello");
 console.log("hello");
 try{
-    console.log("caught an error.. a is not defined");
-}catch{
+    console.log("a");
+}catch(err){
     console.log("caught an error... a is not defined");
+    console.log(err);
 }
 
 console.log("hello2");
