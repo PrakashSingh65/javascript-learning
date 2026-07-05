@@ -37,7 +37,6 @@ function oddOrEvenFactorey(request){
     }
 }
 
-
-let request = "odd";
+console.log("odd");
 // let oddFunc = oddOrEvenFactorey(request);
 // oddFunc(5);
