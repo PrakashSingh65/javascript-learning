@@ -32,10 +32,12 @@ function oddOrEvenFactorey(request){
             console.log(!(n%2 == 0));
         }
         return odd;
+    }else{
+        console.log("even");
     }
 }
 
 
 let request = "odd";
-let oddFunc = oddOrEvenFactorey(request);
-oddFunc(5);
+// let oddFunc = oddOrEvenFactorey(request);
+// oddFunc(5);
