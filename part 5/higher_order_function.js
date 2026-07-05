@@ -1,5 +1,5 @@
-function multipleGreet(func, n){
-    for(let i=1; i<=n; i++){
+function multipleGreet(func, count){
+    for(let i=1; i<=count; i++){
         func();
     }
 }
