@@ -17,4 +17,5 @@ let id = setInterval(() => {
 
 setTimeout(()=>{
     clearInterval(id);
+    console.log("interval cleared");
 },10000);
