@@ -18,10 +18,22 @@
 // set time out 
 
 
-console.log("hi there!");
+// console.log("hi there!");
 
-setTimeout( ()=>{
-    console.log("prakash");
-},400);
+// setTimeout( ()=>{
+//     console.log("prakash");
+// },4000);
 
-console.log("welcome to");
+// console.log("welcome to");
+
+
+
+// set Interval
+
+console.log("hello everyone");
+
+setInterval(()=>{
+    console.log("sandeep and prakash");
+},2000);
+
+console.log("welcome to the world");
