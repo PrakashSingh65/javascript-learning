@@ -5,3 +5,4 @@ let print = function (el){
 };
 
 arr.forEach(print);
+
