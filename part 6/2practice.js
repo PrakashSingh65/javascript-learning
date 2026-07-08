@@ -10,20 +10,14 @@
 
 // create a function to find the min number in an array.
 
-// let nums =[12,45,67,34,25,89];
+let nums =[12,45,67,34,25,89];
 
-// let min = nums.reduce((min,el) =>{
-//     if(min <el){
-//         return min;
-//     }else{
-//         return el;
-//     }
-// });
+let min = nums.reduce((min,el) =>{
+    if(min <el){
+        return min;
+    }else{
+        return el;
+    }
+});
 
-// console.log(min);
-
-
-let arr =[1,2,4,5,6,7,8,9];
-
-let newArr =[...arr];
-console.log(newArr);
+console.log(min);
