@@ -20,3 +20,5 @@ const student ={
 
 let username = student.username;
 let password = student.password;
+
+console.log(student,username,password );
