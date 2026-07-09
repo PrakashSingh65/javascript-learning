@@ -28,9 +28,9 @@
 // selecting elements by class name 
 
 
-let smallImage = document.getElementsByClassName("oldImag");
+let smallImages = document.getElementsByClassName("oldImag");
 
 for(let i =0; i< smallImages.length; i++){
-    smallImage[i].scr ="assets/spiderman_img.png";
+    smallImages[i].scr ="assets/spiderman_img.png";
     console.log(`value of image no. ${i} is change.`);
 }
