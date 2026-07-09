@@ -1,24 +1,36 @@
-// let names = ["prakash","sandeep","nakul","tony"];
+// // let names = ["prakash","sandeep","nakul","tony"];
 
-// let [winner,runnerup, ...other]=names;
-// console.log(winner,runnerup,other);
-
-
-
-// destructuring(object)
+// // let [winner,runnerup, ...other]=names;
+// // console.log(winner,runnerup,other);
 
 
-const student ={
-    name: "prakash",
-    age:23,
-    class: 8,
-    subject:["hindi","english","maths","scienmce"],
-    username: "prakash@123",
-    pasword:"abcd"
-};
+
+// // destructuring(object)
 
 
-let username = student.username;
-let password = student.password;
+// const student ={
+//     name: "prakash",
+//     age:23,
+//     class: 8,
+//     subject:["hindi","english","maths","scienmce"],
+//     username: "prakash@123", 
+//     pasword:"abcd"
+// };
 
-console.log(student,username,password );
+
+// let username = student.username;
+// let password = student.password;
+
+// console.log(student,username,password );
+
+
+
+// selecting elements by class name 
+
+
+let smallImage = document.getElementsByClassName("oldImag");
+
+for(let i =0; i< smallImages.length; i++){
+    smallImage[i].scr ="assets/spiderman_img.png";
+    console.log(`value of image no. ${i} is change.`);
+}
