@@ -40,8 +40,11 @@
 // query selectors
 
 
-console.dir(document.querySelector("h1"));
+// console.dir(document.querySelector("p"));
 
-console.dir(document.querySelector("#description"));
+// console.dir(document.querySelector("#description"));
 
-console.dir(document.querySelector(".oldImage"));
+// console.dir(document.querySelector(".oldImage"));
+
+
+console.dir(document.querySelector("div a"));
