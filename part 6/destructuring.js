@@ -28,9 +28,20 @@
 // selecting elements by class name 
 
 
-let smallImages = document.getElementsByClassName("oldImag");
+// let smallImages = document.getElementsByClassName("oldImag");
 
-for(let i =0; i< smallImages.length; i++){
-    smallImages[i].scr ="assets/spiderman_img.png";
-    console.log(`value of image no. ${i} is change.`);
-}
+// for(let i =0; i< smallImages.length; i++){
+//     smallImages[i].scr ="assets/spiderman_img.png";
+//     console.log(`value of image no. ${i} is change.`);
+// }
+
+
+
+// query selectors
+
+
+console.dir(document.querySelector("h1"));
+
+console.dir(document.querySelector("#description"));
+
+console.dir(document.querySelector(".oldImage"));
