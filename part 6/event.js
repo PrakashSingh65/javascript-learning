@@ -1,11 +1,18 @@
-let p  = document.querySelector("p");
+// let p  = document.querySelector("p");
 
-p.addEventListener("click", function(){
-    console.log("parah was clicked");
-});
+// p.addEventListener("click", function(){
+//     console.log("parah was clicked");
+// });
 
 
-let box = document.querySelector(".box");
-box.addEventListener("mouseenter", function(){
-    console.log("mouse inside box");
+// let box = document.querySelector(".box");
+// box.addEventListener("mouseenter", function(){
+//     console.log("mouse inside box");
+// });
+
+
+let btn = document.querySelector("button");
+
+btn.addEventListener("click", function(){
+    console.log(this);
 });
